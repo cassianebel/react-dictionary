@@ -74,7 +74,9 @@ export default function Home() {
             : "w-full flex bg-gray-200 dark:bg-gray-900 rounded-xl p-2"
         }
       >
-        <label className="sr-only">Enter text to search</label>
+        <label className="sr-only" htmlFor="search">
+          Enter text to search
+        </label>
         <input
           type="text"
           id="search"
