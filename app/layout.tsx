@@ -30,12 +30,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-screen">
+    <html lang="en" className="pb-10">
       <body
         className={`${inter.variable} ${lora.variable} ${inconsolata.variable} antialiased bg-gray-100 text-gray-900 dark:bg-gray-950 dark:text-gray-200 h-screen`}
       >
         <FontProvider>
-          <div className="max-w-3xl mx-auto my-4 md:my-10 px-4 h-screen">
+          <div className="max-w-3xl mx-auto my-4 md:my-10 px-4">
             <header className="flex justify-between gap-4">
               <div className="me-auto">
                 <svg

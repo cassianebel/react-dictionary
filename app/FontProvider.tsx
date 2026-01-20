@@ -23,7 +23,7 @@ export function FontProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <FontContext.Provider value={{ font, setFont }}>
-      <div className={`font-${font} h-screen`}>{children}</div>
+      <div className={`font-${font}`}>{children}</div>
     </FontContext.Provider>
   );
 }

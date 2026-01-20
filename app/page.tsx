@@ -65,7 +65,7 @@ export default function Home() {
   };
 
   return (
-    <main className="my-10 h-full">
+    <main className="my-10 pb-10">
       <form
         onSubmit={handleSearch}
         className={
